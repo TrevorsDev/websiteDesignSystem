@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'ailerons';
+  src: url('Fonts/Ailerons-TrialVersion.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+  @font-face {
+    font-family: 'Orbitron';
+    src: url('../fonts/Orbitron-VariableFont_wght.ttf')format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+body {
+  font-family: Orbitron;
+  font-size: 12px;
+}
+
+nav a {
+  font-weight: 900;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+li,
+a {
+  display: inline;
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+header {
+  border: 1px solid black;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'ailerons' !important;
+  font-size: 40px;
+}
+
+.CFT-container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px
+}
+
+.color-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.color-panel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  height: 15vh
+}
+
+.deep-purple {
+  background-color: #673ab7;
+}
+
+.rich-orchid {
+  background-color: #ac61b9;
+}
+
+.serene-blue {
+  background-color: #b7c1de;
+}
+section {
+
+  border: 1px solid black;
+
+}

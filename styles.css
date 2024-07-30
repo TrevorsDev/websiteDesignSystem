@@ -5,27 +5,44 @@
   font-style: normal;
 }
 
-  @font-face {
-    font-family: 'Orbitron';
-    src: url('../fonts/Orbitron-VariableFont_wght.ttf')format('truetype');
-    font-weight: 200;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/Orbitron-VariableFont_wght.ttf')format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
 
+html {
+  background-image: url('img/cyberGirl.jpg');
+  background-size: cover; /* Scale the image to cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Make the background image fixed on scroll */
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
 body {
   font-family: Orbitron;
   font-size: 12px;
 }
 
+
 nav a {
   font-weight: 900;
+  color: #ac61b9;
 }
 
-main {
-  display: flex;
-  flex-direction: row;
+nav a:hover {
+  color: #63345e;
+
 }
+
 li,
 a {
   display: inline;
@@ -35,51 +52,114 @@ a {
 
 header {
   border: 1px solid black;
+  border-radius: 10px;
   text-align: center;
+  background-color: #092047de;
+}
+
+h1, h2, h3, p, a {
+  color: rgb(203, 209, 197);
+}
+
+h1, h2 {
+  font-family: 'ailerons' !important;
 }
 
 h1 {
-  font-family: 'ailerons' !important;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 900;
+  color: #b7c1de;
 }
 
-.CFT-container {
-  display: flex;
-  justify-content: space-around;
-  border: 1px solid black;
-  margin: 5px;
-  padding: 5px
+h2 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #b7c1de;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.ft-container {
+  margin: 10px;
+}
+
+.fonts {
+  background-color: #092047c5;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ailerons {
+  font-family: 'ailerons';
+  font-size: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-styles {
+  margin-top: 10px;
+  background-color: #092047c5;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .color-container {
+  margin: 10px;
+  background-color: #092047c5;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top:50px
+}
+
+.color-panel-container {
   display: flex;
   justify-content: space-around;
-  gap: 10px;
+  flex-wrap: wrap; /* Optional, allows wrapping to new lines if needed */
 }
 
 .color-panel {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   border: 1px solid black;
   border-radius: 5px;
-  align-items: center;
-  height: 15vh
+  padding: 10px;
+  margin: 10px; /* Add some margin for spacing */
+  height: 15vh;
 }
 
 .deep-purple {
+  display: flex;
   background-color: #673ab7;
+  flex-wrap: wrap;
 }
 
 .rich-orchid {
   background-color: #ac61b9;
 }
 
-.serene-blue {
+.light-periwinkle {
   background-color: #b7c1de;
 }
-section {
 
+.deep-blue {
+  background-color: #0b468c;
+}
+
+.sophisticated-blue {
+  background-color: #092047;
+}
+
+section {
   border: 1px solid black;
 
 }

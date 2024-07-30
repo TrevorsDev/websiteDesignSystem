@@ -81,6 +81,14 @@ h3 {
   font-size: 18px;
 }
 
+
+/* .bg-solid {
+  background-color: #333;
+  height: 20vh; 
+  color:#63345e;
+  text-align:left
+} */
+
 .ft-container {
   margin: 10px;
 }
@@ -139,7 +147,7 @@ h3 {
 
 .deep-purple {
   display: flex;
-  background-color: #673ab7;
+  background-color: #63345e;
   flex-wrap: wrap;
 }
 
